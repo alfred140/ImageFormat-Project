@@ -56,7 +56,7 @@ namespace lab3
                     var width = data[18] + (data[19] * 256) +
                     (data[20] * 256 * 256) +
                     (data[21] * 256 * 256 * 256);
-
+                     
                     var height = data[22] + (data[23] * 256) +
                              (data[24] * 256 * 256) +
                              (data[25] * 256 * 256 * 256);
